@@ -8,9 +8,9 @@
 
 if (isset($_POST['name'], $_POST['surname'], $_POST['birthDate']) && $_POST['name'] !== '' && $_POST['surname'] !== '' && $_POST['birthDate'] !== '')
 {
-    echo 'Имя - ' . $_POST['name'] . '<br/>';
-    echo 'Фамилия - ' . $_POST['surname'] . '<br/>';
-    echo 'Дата рождения - ' . $_POST['birthDate'] . '<br/>';
+    echo 'Имя - ' . $_POST['name'] . '<br/>' . '<br/>';
+    echo 'Фамилия - ' . $_POST['surname'] . '<br/>' . '<br/>';
+    echo 'Дата рождения - ' . $_POST['birthDate'] . '<br/>' . '<br/>';
 }
 
 if (isset($_POST['Men']) && $_POST['Men'] === 'on' )
